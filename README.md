@@ -6,8 +6,10 @@ Aria2+AriaNG+KodExplorer for CentOS7一键安装脚本
 
 **脚本仅支持CentOS7X64，且系统必须是纯净的。安装请使用ROOT用户执行下面的命令：**
 
-> wget https://raw.githubusercontent.com/hi-KK/Aria2-KodExplorer/master/Aria2%2BAriaNG%2BKodExplorer_Install.sh
+wget https://raw.githubusercontent.com/hi-KK/Aria2-KodExplorer/master/Aria2%2BAriaNG%2BKodExplorer_Install.sh
+
 chmod +x Aria2+AriaNG+KodExplorer_Install.sh
+
 ./Aria2+AriaNG+KodExplorer_Install.sh
 
 ### 脚本会帮你安装如下软件
@@ -16,15 +18,20 @@ Nginx 1.14/PHP 7.2.9/Aria2 1.34.0/AriaNG 0.5.0/KodExplorer 4.36
 
 安装完成后回显内容：
 
-> AriaNG管理地址：http://你的VPS公网IP:11585
+AriaNG管理地址：http://你的VPS公网IP:11585
+
 KodExplorer管理地址：http://你的VPS公网IP:11586
+
 默认的Aria2 RPC密码：lala.im
 
 ### Aria2管理命令：
 
 systemctl start aria2
+
 systemctl stop aria2
+
 systemctl restart aria2
+
 systemctl status aria2
 
 ### 使用注意：
