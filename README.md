@@ -1,4 +1,4 @@
-# Aria2-KodExplorer
+# 1、Aria2-KodExplorer
 
 Aria2+AriaNG+KodExplorer for CentOS7一键安装脚本
 
@@ -46,4 +46,23 @@ rpc-secret=填写一个你的密码
 systemctl restart aria2
 
 2.在脚本安装成功之后，建议立即打开KodExplorer设置管理员密码，并删除demo和guest用户，确保系统安全
+
+---
+
+# 2、Aria2_auto_install.sh
+Aria2 for CentOS 6+ / Debian 6+ / Ubuntu 14.04 + 一键安装脚本
+（转自逗比大神https://doub.io）
+***推荐 Debian 8 x64，这个是我一直使用的系统，我的脚本在这个系统上面出错率最低。***
+### 安装步骤
+执行下面的代码下载并运行脚本。
+> wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+
+运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装。
+
+### 使用说明
+进入下载脚本的目录并运行脚本：
+> ./aria2.sh
+
+然后选择你要执行的选项即可。
+
 
